@@ -1,0 +1,99 @@
+
+
+.bootstrap-header-table {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+.bootstrap-header-table .header-row {
+    background-color: #F5F5F5;
+    border: 1px solid gainsboro;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6e6e6e;
+}
+
+.bootstrap-header-table .header-row .header-column {
+    text-align: center;
+}
+
+.bootstrap-header-table .body-rows {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.bootstrap-header-table .body-rows .body-row {
+    border-bottom: 1px solid gainsboro;
+}
+
+.bootstrap-header-table .body-rows .body-row:hover {
+    cursor: pointer;
+    background-color: #fafafa;
+}
+
+.bootstrap-header-table .body-rows .body-row .body-column {
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.bootstrap-header-table .body-rows .body-row .body-column:first-child {
+    padding-left: 15px;
+}
+
+.bootstrap-header-table .body-rows .body-row .body-column:last-child {
+    padding-right: 15px;
+}
+
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #4582EC;
+    border-color: #4582EC;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #226be8;
+    border-color: #1863e6;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+  }
+  
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #4582EC;
+    border-color: #4582EC;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #1863e6;
+    border-color: #165edb;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+  }
+
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  a.bg-dark:hover, a.bg-dark:focus,
+  button.bg-dark:hover,
+  button.bg-dark:focus {
+    background-color: #1d2124 !important;
+  }
